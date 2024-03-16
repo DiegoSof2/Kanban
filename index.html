@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <!--   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <nav>
+            <ion-icon name="bookmarks-outline"></ion-icon>
+            <ul>
+                <li>
+                    <a href="#" class="active">
+                    <ion-icon name="tablet-portrait"></ion-icon>
+                    BOARDS
+                </a>
+            </li>
+            <li>
+                <a href="#" >
+                <ion-icon name="people"></ion-icon>
+                EQUIPES
+            </a>
+        </li>
+        <li>
+            <a href="#" >
+            <ion-icon name="document-text"></ion-icon>
+            RELATÓRIOS
+        </a>
+        </li>
+        <li>
+            <a href="#" >
+            <ion-icon name="cog"></ion-icon>
+            AJUSTES
+        </a>
+        </li>
+            </ul>
+        </nav>
+        <main>
+            <div class="inner">
+                <section class="title-avatar">
+                    <h1>Meu kanban</ion-icon></h1>
+                    <img src="https://github.com/DiegoSof2.png" alt="avatar">
+                </section>
+                <section class="filter">
+                    <button>
+                        <ion-icon name="filter-outline"></ion-icon>
+                        <span>Filtrar</span>
+                    </button>
+                    <div class="input-wrapper">
+                        <ion-icon name="search-outline"></ion-icon>
+                          <input type="text" placeholder="Busque por cards, assuntos ou responsáveis..."/>
+                    </div>
+                    
+                    
+                </section>
+                <section class="kanban">
+                    <div class="todo">
+                        <h2>A fazer</h2>
+                        <div class="cards">
+                            <div class="card">
+                                <h3>Criar página de login</h3>
+                                <p>
+                                    Desenvolver uma página de login responsiva para o aplicativo da empresa. Garantir que a página seja amigável para dispositivos móveis e siga as diretrizes de design da marca.
+                                </p>
+                                <div class="tags">
+                                    <span>DesenvolvimentoWeb</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <h3>Preparar apresentação para reunião semanal</h3>
+                                <p>
+                                    Criar slides informativos e visualmente atraentes para a reunião semanal da equipe. Incluir atualizações de progresso, próximos passos e problemas enfrentados.
+                                </p>
+                                <div class="tags">
+                                    <span>Apresentação</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <h3>Atualizar documentação do projeto</h3>
+                                <p>
+                                    Revisar e atualizar a documentação do projeto para refletir as últimas alterações e adições ao código-fonte. Incluir instruções claras de instalação e uso.
+                                </p>
+                                <div class="tags">
+                                    <span>Documentação</span>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        </div>
+                        <div class="doing">
+                            <h2>fazendo</h2>
+                            <div class="cards">
+                                <div class="card">
+                                    <h3>Implementar funcionalidade de pesquisa</h3>
+                                    <p>
+                                        Adicionar uma barra de pesquisa à interface do usuário do aplicativo e implementar a funcionalidade de pesquisa para permitir que os usuários pesquisem por itens específicos dentro do aplicativo. Isso inclui a integração com uma API de busca, o processamento de consultas de pesquisa e a exibição dos resultados de maneira adequada.
+                                    </p>
+                                    <div class="tags">
+                                        <span>Funcionalidade</span>
+                                        <span>DesenvolvimentoWeb</span>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <h3>Corrigir bug de validação de formulário</h3>
+                                    <p>
+                                        Identificar e corrigir um bug na validação de formulários que afeta o envio de dados. O problema parece estar relacionado à validação de endereços de e-mail.
+                                    </p>
+                                    <div class="tags">
+                                        <span>CorreçãoDeBugs</span>
+                                        <span>DesenvolvimentoWeb</span>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="done">
+                            <h2>Feito</h2>
+                            <div class="cards">
+                                <div class="card">
+                                    <h3>Publicar atualização de versão</h3>
+                                    <p>
+                                        Preparar e publicar a atualização mais recente da aplicação. Isso inclui notas de lançamento detalhadas e testes finais para garantir estabilidade.
+                                    </p>
+                                    <div class="tags">
+                                        <span>Lançamento</span>
+                                    </div>
+                                </div>
+                               
+                               
+                            </div>
+                        </div>
+                        </div>
+
+
+                </section>
+
+            </div>
+        </main>
+    </div>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
